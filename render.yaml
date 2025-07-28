@@ -13,5 +13,3 @@ services:
         value: a7eJkP5jj5q7lgeLMlusiXTlNKzVjEJd
       - key: SPRING_JPA_HIBERNATE_DDL_AUTO
         value: update
-      - key: PORT
-        value: 8080
