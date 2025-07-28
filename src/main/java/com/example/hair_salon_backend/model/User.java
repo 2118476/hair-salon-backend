@@ -1,14 +1,11 @@
 package com.example.hair_salon_backend.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@Table(name = "users") // <-- Add this to avoid using reserved keyword 'user'
 public class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -17,7 +14,7 @@ public class User {
     private String email;
     private String password;
 
-    @Enumerated(EnumType.STRING) // This annotation is used for enum types
+    @Enumerated(EnumType.STRING)
     private Role role;
 
     // Getters and setters
