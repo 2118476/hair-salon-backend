@@ -6,10 +6,10 @@ services:
     autoDeploy: true
     envVars:
       - key: SPRING_DATASOURCE_URL
-        value: jdbc:postgresql://dpg-d233s3je5dus73a7qlq0-a.frankfurt-postgres.render.com:5432/hair_salon_db_yk6d?sslmode=require
+        value: jdbc:postgresql://dpg-d23mkoqdbo4c738dhvj0-a.frankfurt-postgres.render.com:5432/hair_salon_db_xoyx?sslmode=require
       - key: SPRING_DATASOURCE_USERNAME
-        value: hair_salon_db_yk6d_user
+        value: hair_salon_db_xoyx_user
       - key: SPRING_DATASOURCE_PASSWORD
-        value: a7eJkP5jj5q7lgeLMlusiXTlNKzVjEJd
+        value: assqoe1gvA6SzAPrhB6Q6SDOgDVKXGMe
       - key: SPRING_JPA_HIBERNATE_DDL_AUTO
         value: update
